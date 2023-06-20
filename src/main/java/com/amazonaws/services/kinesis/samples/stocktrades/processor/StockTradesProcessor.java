@@ -65,7 +65,7 @@ public class StockTradesProcessor {
         PROCESSOR_LOGGER.setLevel(Level.WARNING);
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         checkUsage(args);
 
         setLogLevels();
